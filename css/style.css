@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.penguin-bg{
+    background-color: #FFF9F4;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/* -- banner -- */
+.banner-decoration{
+    --bs-gutter-x: 0 !important;
+}
+.banner-heading{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #363958;
+}
+.banner-heading span{
+    color:#FA804C;
+}
+/* -- // banner -- */
+/* -- product -- */
+.shoe-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    color: #363958;
+}
+.card-decoration {
+	background-color: transparent !important;
+	border: 0 !important;
+	border-radius: 1.5rem !important;
+}
+.shadow{
+    box-shadow: 2px 2px 20px 2px #E5E5E570;
+}
+.display-title {
+	font-family: 'Roboto', sans-serif;
+	color: #363958;
+	font-size: 24px;
+	font-weight: 700;
+}
+.shoe-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #FA804C;
+}
+.item-radius{
+    border-radius: 1.5rem;
+}
+.casual-shoe-display {
+	background-color: #E5E5E582;
+}
+.custom-btn{
+    padding: 1rem 1.5rem !important;
+}
+.offer-img-1 {
+	background-image: url('../images/Photos/discount-shoe1.jpg');
+	min-height: 350px;
+	background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+
+}
+.offer-img-2 {
+	background-image: url('../images/Photos/discount-shoe2.jpg');
+	min-height: 350px;
+	background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+}
+.offer-overlay {
+	min-height: 350px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255, 0);
+    position: absolute;
+    transform: scale(0);
+    transition: all ease .9s;
+}
+.offer-img-1:hover .offer-overlay{
+    background-color:rgb(255, 255, 255, 0.5);
+    transform: scale(1);
+}
+.offer-img-2:hover .offer-overlay{
+    background-color:rgb(255, 255, 255, 0.5);
+    transform: scale(1);
+}
+.offer-title{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    color:red;
+    font-size: 36px;
+}
+.offer-rate{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.running-trend{
+    background-image: url('../images/Photos/special-shoe.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: contain;
+    padding: 30px;
+}
+.trend-title{
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #ffffff;
+}
+.trend-text{
+    font-size: 24px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+}
+.trend-description{
+    padding: 3rem;
+}
+.trend-btn {
+	font-size: 1.25rem !important;
+}
+
+/* -- // product -- */
+
+/* -- footer -- */
+.footer-area{
+    background-color:#363958 ;
+}
+.footer-copy-write{
+    
+    padding: 5px;
+}
+.footer-contact{
+    width: 60%;
+}
+/* -- // footer -- */
+
+ @media only screen and (max-width:1200px) {
+      .custom-btn {
+        padding: 6px 10px !important;
+        margin: 0;
+    }
+    .shoe-price {
+        font-size: 28px;
+    }
+  }
+
+@media only screen and (max-width:992px) {
+    .trend-title{
+        font-size: 30px;
+    }
+    .trend-text{
+        font-size: 16px !important;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .shoe-price {
+        font-size: 36px;
+    }
+    .trend-btn{
+       font-size: 12px !important;
+    }
+    .trend-description{
+        padding: 0 !important;
+    }
+    .trend-title {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:576px) {
+    .banner-decoration {
+        flex-direction: column-reverse;
+    }
+    .footer-contact{
+        width: 80%;
+    }
+  }
+
+
+
+
